@@ -1,0 +1,11 @@
+bundle check || bundle install
+
+cp .env_sample .env
+
+rails db:create || true
+rails db:migrate
+rails db:seed
+
+cd client && yarn
+
+echo "You're good to go. Run bin/start to get the app running"
