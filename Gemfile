@@ -7,7 +7,7 @@ end
 
 gem 'rails', '~> 5.2.0'
 gem 'pg', '~> 1.0'
-gem 'puma', '~> 3.7'
+gem 'puma', '~> 4.3'
 gem 'foreman', '~> 0.85.0'
 gem 'devise', '~> 4.5'
 gem 'active_model_serializers', '~> 0.10.0'
